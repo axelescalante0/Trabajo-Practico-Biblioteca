@@ -17,5 +17,7 @@ las catedras llenen ya podemos determinar de que tema es el contenido ('biologia
     *Libros que no encuentro, isbn de 10 digitos, los paso a 13 y no los encuentro en linea
     *Mismos libros tienen diferentes ISBN de 10 digitos, pero solo uno anda al convertirlos en en 13 digitos
 
+#NOTAS 6 DE SEPTIEMPRE
+    * Hay libros que comparten el mismo titulo y autor pero ISBN es diferente. En algunos casos en porque es una segunda edicion o libros en diferente idioma
 
 
