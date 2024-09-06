@@ -1,0 +1,21 @@
+Hay libros que cuentan con 10 digitos ISBN, pero se puede cambiar o transformar a 13 digitos
+
+Hay ISBN que tienen una 'x' al final. no hay problemas con eso la comparacion sera la misma
+
+TOMO EL ISBN tiene (pbk) al final
+
+'8445808052 (v.2) | 8445808089 (o.c.)' en este caso solo me quedo con la primera parte y no con '(o.c)'
+
+*estrategia de extraccion de datos: Pensar un forma para el lunes que viene. Relacionado a tema de clase, al realizar un formulario para que
+las catedras llenen ya podemos determinar de que tema es el contenido ('biologia', 'matematica, etc.) y asi chequar el ISbn al constratar
+
+*Hay observaciones que no tienen ID, en ese caso podriamos chequear el titulo para comparar
+
+#NOTAS 5 DE SEPTIEMPRE
+    *El csv 'total' presenta datos duplicados, pero el 'barcode' cambia en distintas observaciones lo que genera
+     que sea dificil de detectar 
+    *Libros que no encuentro, isbn de 10 digitos, los paso a 13 y no los encuentro en linea
+    *Mismos libros tienen diferentes ISBN de 10 digitos, pero solo uno anda al convertirlos en en 13 digitos
+
+
+
