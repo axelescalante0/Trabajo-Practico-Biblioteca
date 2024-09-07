@@ -1,5 +1,6 @@
 from lectura import leer_csv, validar_calidad
 from conversor import convertir_isbn
+import pandas as pd
 
 libros_t = leer_csv('Archivos/ANALISIS DE COLECCIÓN - PRUEBA -reportresults.csv')
 
@@ -29,6 +30,10 @@ autor = libros_t2[libros_t2['title'] == 'Circuitos electrónicos :']
 
 print(autor)
 
-new = convertir_isbn(libros_t2,'isbn')
-a = new[new['title'] == 'Circuitos electrónicos :']
-print(a)
+new_libros = convertir_isbn(libros_t2,'isbn')
+a = new_libros[new_libros['title'] == 'Circuitos electrónicos :']
+
+
+#Libros con los ISBN convertidos a 13 digitos
+print(new_libros.info())
+
