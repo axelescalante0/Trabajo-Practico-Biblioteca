@@ -37,3 +37,10 @@ a = new_libros[new_libros['title'] == 'Circuitos electrónicos :']
 #Libros con los ISBN convertidos a 13 digitos
 print(new_libros.info())
 
+# Separar los ISBNs si están separados por espacio o "|", quedándonos con el primero
+new_libros['isbn_clean'] = new_libros['isbn'].str.split('|').str[0].str.strip()
+
+# Verificar el resultado
+print(new_libros.head(50))
+
+

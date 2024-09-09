@@ -19,5 +19,15 @@ las catedras llenen ya podemos determinar de que tema es el contenido ('biologia
 
 #NOTAS 6 DE SEPTIEMPRE
     * Hay libros que comparten el mismo titulo y autor pero ISBN es diferente. En algunos casos en porque es una segunda edicion o libros en diferente idioma
+NOTAS 9 SEPTIEMPRE
+    *Por mas que el ISBN no se registre en linea nosotros lo dejamos igual ya que en biblioteca esta asi
+    *Si hay mas de un ISBN nos quedamos solo con el primero
+
+    FORMULARIO 
+    Antes de pedir la bibliografia poner una opcion multiple de carrera corresponde 
+    Pedir TITULO AUTOR E ISBN ademas de alguna pregunta clave
+
+    *REVISAR LA FORMA DE CACULAR ISBN
+    El mio anda andaba y al comparar y dejo de andar
 
 
