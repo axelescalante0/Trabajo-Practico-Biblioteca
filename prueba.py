@@ -38,9 +38,16 @@ a = new_libros[new_libros['title'] == 'Circuitos electrónicos :']
 print(new_libros.info())
 
 # Separar los ISBNs si están separados por espacio o "|", quedándonos con el primero
-new_libros['isbn_clean'] = new_libros['isbn'].str.split('|').str[0].str.strip()
+new_libros['isbn'] = new_libros['isbn'].str.split('|').str[0].str.strip()
 
 # Verificar el resultado
+#print(new_libros.head(50))
+
+
+new_libros = convertir_isbn(new_libros,'isbn') #De nuevo convertimos los ISBN a 13 digitos luego de hacer el split  
 print(new_libros.head(50))
+print('informacion de los libros:')
+print(new_libros.info())
 
-
+# Guardar el DataFrame en un archivo CSV
+new_libros.to_csv('ruta_del_archivo.csv', index=False)
